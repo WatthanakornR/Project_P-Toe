@@ -1,22 +1,18 @@
 package entity.base;
 
-public abstract class Skill {
-	protected String skillName;
-	protected boolean useMp;
+import entity.unit.Unit_Player;
 
-	public Skill(String skillName) {
+public abstract class Skill {
+	private String skillName;
+	private int cooldown;
+	
+	public Skill(String skillName, int cooldown) {
 		super();
 		this.skillName = skillName;
-		useMp = false;
+		this.cooldown = cooldown;
 	}
-
-	public boolean isUseMp() {
-		return useMp;
-	}
-
-	public void setUseMp(boolean useMp) {
-		this.useMp = useMp;
-	}
+	
+	public abstract int useSkill (Unit_Player player,Unit enemy);
 
 	public String getSkillName() {
 		return skillName;
@@ -24,6 +20,20 @@ public abstract class Skill {
 
 	public void setSkillName(String skillName) {
 		this.skillName = skillName;
+	}
+
+	public int getCooldown() {
+		return cooldown;
+	}
+
+	public void setCooldown(int cooldown) {
+		this.cooldown = cooldown;
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return skillName + " ( Cooldown : " + cooldown + " )";
 	}
 
 }

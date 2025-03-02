@@ -88,8 +88,8 @@ public class Player extends Entity {
     }
 
     public void checkCheckpoint() {
-        int checkpointX = gp.TILE_SIZE * 10;
-        int checkpointY = gp.TILE_SIZE * 10;
+        int checkpointX = gp.TILE_SIZE * 7;
+        int checkpointY = gp.TILE_SIZE * 6;
         int checkpointSize = gp.TILE_SIZE; 
 
         Rectangle checkpointArea = new Rectangle(checkpointX, checkpointY, checkpointSize, checkpointSize);
@@ -97,13 +97,13 @@ public class Player extends Entity {
 
         if (playerHitbox.getBoundsInLocal().intersects(checkpointArea.getBoundsInLocal())) {
             System.out.println("🏁 ผู้เล่นถึง Checkpoint! เปลี่ยนเป็น Scene เลือกด่าน");
-            gp.sceneManager.setScene(SceneManager.STAGE_SCENE);
+            gp.sceneManager.setScene(SceneManager.CHARACTER_SELECT_SCENE);
         }
     }
 
     public void checkCheckpoint2() {
-        int checkpointX = gp.TILE_SIZE * 24;
-        int checkpointY = gp.TILE_SIZE * 40;
+        int checkpointX = gp.TILE_SIZE * 15;
+        int checkpointY = gp.TILE_SIZE * 7;
         int checkpointSize = gp.TILE_SIZE;
 
         Rectangle checkpointArea = new Rectangle(checkpointX, checkpointY, checkpointSize, checkpointSize);

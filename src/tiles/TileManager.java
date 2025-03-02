@@ -2967,6 +2967,173 @@ public class TileManager {
 			this.tile[1850] = new Tile();
 			this.tile[1850].image = new Image(getClass().getResourceAsStream("/assets/Pmap/850.png"));
 			this.tile[1850].collision = true;
+			
+			this.tile[1851] = new Tile();
+			this.tile[1851].image = new Image(getClass().getResourceAsStream("/assets/Pmap/851.png"));
+
+			this.tile[1852] = new Tile();
+			this.tile[1852].image = new Image(getClass().getResourceAsStream("/assets/Pmap/852.png"));
+			this.tile[1852].collision = true;
+
+			this.tile[1853] = new Tile();
+			this.tile[1853].image = new Image(getClass().getResourceAsStream("/assets/Pmap/853.png"));
+			this.tile[1853].collision = true;
+
+			this.tile[1854] = new Tile();
+			this.tile[1854].image = new Image(getClass().getResourceAsStream("/assets/Pmap/854.png"));
+			this.tile[1854].collision = true;
+
+			this.tile[1855] = new Tile();
+			this.tile[1855].image = new Image(getClass().getResourceAsStream("/assets/Pmap/855.png"));
+			this.tile[1855].collision = true;
+
+			this.tile[1856] = new Tile();
+			this.tile[1856].image = new Image(getClass().getResourceAsStream("/assets/Pmap/856.png"));
+			this.tile[1856].collision = true;
+
+			this.tile[1857] = new Tile();
+			this.tile[1857].image = new Image(getClass().getResourceAsStream("/assets/Pmap/857.png"));
+			this.tile[1857].collision = true;
+
+			this.tile[1858] = new Tile();
+			this.tile[1858].image = new Image(getClass().getResourceAsStream("/assets/Pmap/858.png"));
+			this.tile[1858].collision = true;
+
+			this.tile[1859] = new Tile();
+			this.tile[1859].image = new Image(getClass().getResourceAsStream("/assets/Pmap/859.png"));
+			this.tile[1859].collision = true;
+
+			this.tile[1860] = new Tile();
+			this.tile[1860].image = new Image(getClass().getResourceAsStream("/assets/Pmap/860.png"));
+			this.tile[1860].collision = true;
+
+			this.tile[1861] = new Tile();
+			this.tile[1861].image = new Image(getClass().getResourceAsStream("/assets/Pmap/861.png"));
+			this.tile[1861].collision = true;
+
+			this.tile[1862] = new Tile();
+			this.tile[1862].image = new Image(getClass().getResourceAsStream("/assets/Pmap/862.png"));
+			this.tile[1862].collision = true;
+
+			this.tile[1863] = new Tile();
+			this.tile[1863].image = new Image(getClass().getResourceAsStream("/assets/Pmap/863.png"));
+			this.tile[1863].collision = true;
+
+			this.tile[1864] = new Tile();
+			this.tile[1864].image = new Image(getClass().getResourceAsStream("/assets/Pmap/864.png"));
+			this.tile[1864].collision = true;
+
+			this.tile[1865] = new Tile();
+			this.tile[1865].image = new Image(getClass().getResourceAsStream("/assets/Pmap/865.png"));
+			this.tile[1865].collision = true;
+
+			this.tile[1866] = new Tile();
+			this.tile[1866].image = new Image(getClass().getResourceAsStream("/assets/Pmap/866.png"));
+			this.tile[1866].collision = true;
+
+			this.tile[1867] = new Tile();
+			this.tile[1867].image = new Image(getClass().getResourceAsStream("/assets/Pmap/867.png"));
+			this.tile[1867].collision = true;
+
+			this.tile[1868] = new Tile();
+			this.tile[1868].image = new Image(getClass().getResourceAsStream("/assets/Pmap/868.png"));
+			this.tile[1868].collision = true;
+
+			this.tile[1869] = new Tile();
+			this.tile[1869].image = new Image(getClass().getResourceAsStream("/assets/Pmap/869.png"));
+			this.tile[1869].collision = true;
+
+			this.tile[1870] = new Tile();
+			this.tile[1870].image = new Image(getClass().getResourceAsStream("/assets/Pmap/870.png"));
+			this.tile[1870].collision = true;
+			
+			this.tile[1879] = new Tile();
+			this.tile[1879].image = new Image(getClass().getResourceAsStream("/assets/Pmap/879.png"));
+			this.tile[1879].collision = true;
+
+			this.tile[1880] = new Tile();
+			this.tile[1880].image = new Image(getClass().getResourceAsStream("/assets/Pmap/880.png"));
+			this.tile[1880].collision = true;
+
+			this.tile[1881] = new Tile();
+			this.tile[1881].image = new Image(getClass().getResourceAsStream("/assets/Pmap/881.png"));
+			this.tile[1881].collision = true;
+
+			this.tile[1882] = new Tile();
+			this.tile[1882].image = new Image(getClass().getResourceAsStream("/assets/Pmap/882.png"));
+			this.tile[1882].collision = true;
+
+			this.tile[1883] = new Tile();
+			this.tile[1883].image = new Image(getClass().getResourceAsStream("/assets/Pmap/883.png"));
+			this.tile[1883].collision = true;
+
+			this.tile[1884] = new Tile();
+			this.tile[1884].image = new Image(getClass().getResourceAsStream("/assets/Pmap/884.png"));
+			this.tile[1884].collision = true;
+
+			this.tile[1885] = new Tile();
+			this.tile[1885].image = new Image(getClass().getResourceAsStream("/assets/Pmap/885.png"));
+			this.tile[1885].collision = true;
+
+			this.tile[1886] = new Tile();
+			this.tile[1886].image = new Image(getClass().getResourceAsStream("/assets/Pmap/886.png"));
+			this.tile[1886].collision = true;
+
+			this.tile[1887] = new Tile();
+			this.tile[1887].image = new Image(getClass().getResourceAsStream("/assets/Pmap/887.png"));
+			this.tile[1887].collision = true;
+
+			this.tile[1888] = new Tile();
+			this.tile[1888].image = new Image(getClass().getResourceAsStream("/assets/Pmap/888.png"));
+			this.tile[1888].collision = true;
+
+			this.tile[1889] = new Tile();
+			this.tile[1889].image = new Image(getClass().getResourceAsStream("/assets/Pmap/889.png"));
+			this.tile[1889].collision = true;
+
+			this.tile[1890] = new Tile();
+			this.tile[1890].image = new Image(getClass().getResourceAsStream("/assets/Pmap/890.png"));
+			this.tile[1890].collision = true;
+
+			this.tile[1891] = new Tile();
+			this.tile[1891].image = new Image(getClass().getResourceAsStream("/assets/Pmap/891.png"));
+			this.tile[1891].collision = true;
+
+			this.tile[1892] = new Tile();
+			this.tile[1892].image = new Image(getClass().getResourceAsStream("/assets/Pmap/892.png"));
+			this.tile[1892].collision = true;
+
+			this.tile[1893] = new Tile();
+			this.tile[1893].image = new Image(getClass().getResourceAsStream("/assets/Pmap/893.png"));
+			this.tile[1893].collision = true;
+
+			this.tile[1894] = new Tile();
+			this.tile[1894].image = new Image(getClass().getResourceAsStream("/assets/Pmap/894.png"));
+			this.tile[1894].collision = true;
+
+			this.tile[1895] = new Tile();
+			this.tile[1895].image = new Image(getClass().getResourceAsStream("/assets/Pmap/895.png"));
+			this.tile[1895].collision = true;
+
+			this.tile[1896] = new Tile();
+			this.tile[1896].image = new Image(getClass().getResourceAsStream("/assets/Pmap/896.png"));
+			this.tile[1896].collision = true;
+
+			this.tile[1897] = new Tile();
+			this.tile[1897].image = new Image(getClass().getResourceAsStream("/assets/Pmap/897.png"));
+			this.tile[1897].collision = true;
+
+			this.tile[1898] = new Tile();
+			this.tile[1898].image = new Image(getClass().getResourceAsStream("/assets/Pmap/898.png"));
+			this.tile[1898].collision = true;
+
+			this.tile[1899] = new Tile();
+			this.tile[1899].image = new Image(getClass().getResourceAsStream("/assets/Pmap/899.png"));
+			this.tile[1899].collision = true;
+
+			this.tile[1900] = new Tile();
+			this.tile[1900].image = new Image(getClass().getResourceAsStream("/assets/Pmap/900.png"));
+
 
 			this.tile[0000] = new Tile();
 			this.tile[0000].image = new Image(getClass().getResourceAsStream("/assets/Pmap/0.png"));

@@ -20,6 +20,7 @@ public class Main extends Application {
         gamePanel.startGameLoop(); // Start game logic
     }
 
+    
     public static void main(String[] args) {
         launch(args);
     }
